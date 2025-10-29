@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFE-CGC Air France – Application mobile</title>
+  <style>
+    :root {
+      --marine: #213A8F;
+      --cyan: #41C0F0;
+      --jaune: #FFCD1C;
+      --rose: #E94190;
+    }
+
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background: linear-gradient(135deg, var(--marine), var(--cyan));
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.2em;
+    }
+
+    p {
+      font-size: 1.1em;
+      max-width: 480px;
+      margin: 0 auto 1.5em;
+      line-height: 1.5;
+    }
+
+    a.download {
+      background: var(--jaune);
+      color: var(--marine);
+      padding: 15px 35px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      transition: all 0.25s;
+    }
+
+    a.download:hover {
+      transform: scale(1.07);
+      background: #ffd94a;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    img.logo {
+      width: 110px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      background: white;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://qfvogtbdqotbvmpxalwx.supabase.co/storage/v1/object/public/photos/logo_cfecgc_af.png"
+       alt="Logo CFE-CGC Air France" class="logo">
+  <h1>📲 Application CFE-CGC Air France</h1>
+  <p>
+    Téléchargez la dernière version Android de notre application.<br>
+    Compatible Android (version 7.0 et supérieures).
+  </p>
+  <a class="download"
+     href="https://qfvogtbdqotbvmpxalwx.supabase.co/storage/v1/object/public/app_builds/app-arm64-v8a-release.apk">
+     Télécharger l’APK (v3.3 – Android 64 bits)
+  </a>
+
+  <footer>© 2025 CFE-CGC Air France – Votre syndicat, à portée de main 💙</footer>
+</body>
+</html>
